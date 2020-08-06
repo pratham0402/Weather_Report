@@ -125,6 +125,7 @@
     <br>
 
     <div class="block">
+        <b>
         <div class="rem">
             <p><?php echo $day1_temp = $data['list'][1]['main']['temp']." °C";?></p>
             <p>Temperature after 3 hrs</p>
@@ -153,6 +154,7 @@
             <p><?php echo $day1_temp = $data['list'][7]['main']['temp']." °C";?></p>
             <p>Temperature after 21 hrs</p>
         </div>
+        </b>
     </div>
 
     <br>
