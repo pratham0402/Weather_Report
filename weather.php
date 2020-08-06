@@ -68,7 +68,7 @@
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Next 5 Days', 'Temperature (in  °C)', 'Humidity', 'Pressure (in pascal/100)'],
+          ['Next 5 Days', 'Temperature (in  °C)', 'Humidity (in mg/L)', 'Pressure (in pascal/100)'],
           ['day1',  <?php echo $day1_temp ;?>,  <?php echo $day1_humi ;?>, <?php echo $day1_pressure/100 ;?>],
           ['day2',  <?php echo $day2_temp ;?>,  <?php echo $day2_humi ;?>, <?php echo $day2_pressure/100 ;?>],
           ['day3',  <?php echo $day3_temp ;?>,  <?php echo $day3_humi ;?>, <?php echo $day3_pressure/100 ;?>],
